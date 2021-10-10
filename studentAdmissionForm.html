@@ -1,69 +1,88 @@
 <html>
-    <head>
-        <title>
-            Student Admission Form
-        </title>
-    </head>
-    <body>
-        <div id="header">
-            <h1>J.K.M.B Mallick High School</h1>
-            <h3>Admission Form</h3>
-            <hr>
-        </div>
-        <div id="personalInfo">
-            <h1>Personal Information</h1>
-            <label>NAME:</label>
-            <input type="text" placeholder="Full Name"><br>
-            <label>FATHER NAME:</label>
-            <input type="text" placeholder="Father Name"><br>
-            <label>CNIC:</label>
-            <input type="number" placeholder="Enter CNIC"><br>
-            <label>FAVORITE COLOR:</label>
-            <input type="color"><br>
-            <label>D-O-B:</label>
-            <input type="date" placeholder="dd/mm/yyyy"><br>
-            <label>EMAIL:</label>
-            <input type="email" placeholder="abc@xyz.com"><br>
-            <hr>
-        </div>
-        <div id="residentialInfo">
-            <h1>Residential Information</h1>
-            <label>CITY NAME</label>
-            <input type="text" placeholder="City Name"><br>
-            <label>PROVINCE:</label>
-            <select>
-                <option selected>Punjab</option>
-                <option>Sindh</option>
-                <option>KPK</option>
-                <option>Balochistan</option>
-            </select><br>
-            <label>COUNTRY:</label><br>
-            <select>
-                <option selected>USA</option>
-                <option>Pakistan</option>
-                <option>India</option>
-                <option>UK</option>
-            </select><br>
-            <label>GENDER:</label><br>
-            <input type="radio" name="gender">MALE
-            <input type="radio" name="gender">FEMALE
-            <input type="radio" name="gender">OTHERS
-            <hr>
-        </div>
-        <div id="academicInfo">
-            <h1>Academic Information</h1>
-            <label>QUALIFICATION:</label><br>
-            <input type="checkbox">Matric Completed <br>
-            <input type="checkbox">Inter Completed <br>
-            <label>CLASS:</label>
-            <input type="text" placeholder="Grade"><br>
-            <label>NAME OF OLD SCHOOL:</label>
-            <input type="text" placeholder="ABC High School">
-            <hr>
-        </div>
-        <div id="btns">
-            <button type="submit">SUBMIT</button>
-            <button type="reset">RESET</button>
-        </div>     
-    </body>
+
+<head>
+    <title>
+        Student Admission Form
+    </title>
+    <style>
+        #container {
+            width: 700px;
+            margin: auto;
+            border: 1px solid red;
+        }
+
+        input {
+            margin: 20px;
+        }
+
+        div {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    </style>
+</head>
+
+<body id="container">
+    <div id="header">
+        <h1>J.K.M.B Mallick High School</h1>
+        <h2>Admission Form</h2>
+        <hr>
+    </div>
+    <div id="personalInfo">
+        <h1>Personal Information</h1>
+        <label>NAME:</label>
+        <input type="text" placeholder="Full Name"><br>
+        <label>FATHER NAME:</label>
+        <input type="text" placeholder="Father Name"><br>
+        <label>CNIC:</label>
+        <input type="number" placeholder="Enter CNIC"><br>
+        <label>FAVORITE COLOR:</label>
+        <input type="color"><br>
+        <label>D-O-B:</label>
+        <input type="date" placeholder="dd/mm/yyyy"><br>
+        <label>EMAIL:</label>
+        <input type="email" placeholder="abc@xyz.com"><br>
+        <hr>
+    </div>
+    <div id="residentialInfo">
+        <h1>Residential Information</h1>
+        <label>CITY NAME</label>
+        <input type="text" placeholder="City Name"><br>
+        <label>PROVINCE:</label>
+        <select>
+            <option selected>Punjab</option>
+            <option>Sindh</option>
+            <option>KPK</option>
+            <option>Balochistan</option>
+        </select><br>
+        <label>COUNTRY:</label><br>
+        <select>
+            <option selected>USA</option>
+            <option>Pakistan</option>
+            <option>India</option>
+            <option>UK</option>
+        </select><br>
+        <label>GENDER:</label><br>
+        <input type="radio" name="gender">MALE
+        <input type="radio" name="gender">FEMALE
+        <input type="radio" name="gender">OTHERS
+        <hr>
+    </div>
+    <div id="academicInfo">
+        <h1>Academic Information</h1>
+        <label>QUALIFICATION:</label><br>
+        <input type="checkbox">Matric Completed <br>
+        <input type="checkbox">Inter Completed <br>
+        <label>CLASS:</label>
+        <input type="text" placeholder="Grade"><br>
+        <label>NAME OF OLD SCHOOL:</label>
+        <input type="text" placeholder="ABC High School">
+        <hr>
+    </div>
+    <div id="btns">
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </div>
+</body>
+
 </html>
